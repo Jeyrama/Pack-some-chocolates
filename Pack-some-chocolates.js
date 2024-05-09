@@ -43,3 +43,5 @@ function makeChocolates(small, big, goal) {
   }
   return -1;
 }
+
+// or
