@@ -45,3 +45,11 @@ function makeChocolates(small, big, goal) {
 }
 
 // or
+
+function makeChocolates(s,b,n) {
+  let bigs = Math.min(n/5|0,b);
+  n -= 5*bigs;
+  if(n%2 && bigs) n+=5;
+  let smalls = Math.min(n/2|0, s);
+  return n-2*smalls ? -1 : smalls;
+}
