@@ -4,8 +4,8 @@ We need to assemble a parcel of goal grams of chocolates.
 The goal can be assumed to be always a positive integer value.
 
 There are small chocolates (2 grams each) and big chocolates (5 grams each)
-To reach the goal, the chocolates (big and small) must be used as-is, meaning, 
-the chocolates cannot be broken into smaller pieces.
+To reach the goal, the chocolates (big and small) must be used as-is, 
+meaning, the chocolates cannot be broken into smaller pieces.
 
 Maximize the use of big chocolates that are available to achieve the desired goal. 
 And only then should you proceed to use the small chocolates.
